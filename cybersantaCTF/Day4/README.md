@@ -4,6 +4,8 @@ No download of source this time - it is nginx with PHP
 
 ![image](https://user-images.githubusercontent.com/87831546/144930279-55abf556-7f2d-47f4-b241-24e1ab821edb.png)
 
+If we create an account it says we don't have permissions to edit our profile
+
 ![image](https://user-images.githubusercontent.com/87831546/144930297-fa800b42-f342-44f6-b8a1-d14892d63c1c.png)
 
 Create an account called admin, then base64 decode cookie and change to
