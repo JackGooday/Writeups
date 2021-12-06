@@ -1,3 +1,19 @@
+![image](https://user-images.githubusercontent.com/87831546/144931643-219a54ab-a5b9-49fe-84fc-3b53f9045f52.png)
+
+Create user (can't create admin as admin is already registered)
+![image](https://user-images.githubusercontent.com/87831546/144931705-617e5201-89ed-498e-bf21-8fdbec7136d3.png)
+
+We get access denied and a sus cookie
+![image](https://user-images.githubusercontent.com/87831546/144931784-55080963-122b-4724-8bee-ce5c07407022.png)
+
+```
+eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImJvYiIsInBrIjoiLS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS1cbk1JSUJJakFOQmdrcWhraUc5dzBCQVFFRkFBT0NBUThBTUlJQkNnS0NBUUVBb29lSlNrS0xvQlQ5Z2p4L2J3RDZcbjFwRHhOdnV0OE94Zzg1cWxjakVGV1EwQ0VWTlo2em5TWkI0ZzQ2Z1FYNy93ZlJJVzYyUjV4dGNqZlp6dEIzYTBcbi9IUHZMeW1RS25vbDVORldmNkZ2QkxOazhvWTE5ZVVEdndsbXNCM3JITWZZR2V6c2ZiVWlhWitIcWg5L3kzdUNcbnhjUW1NcW9XT3BsejZwMFVOUkN1bnFsTUVyNmd4M1J2UDRjNm02empVTnU0QlVTR0dock9HNGpBOEFCQURtTE9cbjd5ZmVhZVhkK3JOVWR3YlJ1T2pUMnVib2NuZjNhL09rcUdCYzN1cHVraEt4Nm5SazdsRGNpbFdJOHR4M3lPbmFcbktONC8wci9XQWNtRUZGcTZuR1d6azhXYng3Y3M1b3p4RnZhOW1MVUdTRHVYVW92RWprM3M5SnZWbFY1WjRPMk9cbmNRSURBUUFCXG4tLS0tLUVORCBQVUJMSUMgS0VZLS0tLS0iLCJpYXQiOjE2Mzg4MjkxNDJ9.L8LSDVAmTchMdHZ5WWDZ27PLcryv-zbcnbkqCXGW0vT1WfqfpzzpVo-sOI6zHbazNDOeffdKwN_sJICZfAutPfRFpgDxSHayzkxQL3FOcHsSm6XSKBQKodPAYj773PCDkhX5h4KncxNdIo8vTfkzhcw9PADiOr6oA2i_Ue2jgy1qOLTN9k2zjJKIXuvVo1n9ToMwUCp1GSrMXJIClJ7IMHmEb_OY6VBNZhjWXZsNZGEoze_dB-TLVas7Qtx2D4oJPSK2sp0hyKzYDGS6I1Gp9bI3xnzEjiwJ9tEm9F07Icc2CfaTT87fW6EIIpHmAZRKXTSt4xcGf61qRBY1fZatJw
+```
+
+
+
+
 ![image](https://user-images.githubusercontent.com/87831546/144930700-5270a1fa-d76b-4be2-b6d7-391cf8999a4d.png)
+
 
 Vulnerable to key confusion attack - replace rs256 with hs256 , change admin then forge our own secret. Then vulnerable to nunchucks SSTI
