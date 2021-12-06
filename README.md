@@ -1,5 +1,3 @@
 # Writeups
 
-```
-bob
-```
+Maybe I might start putting some of my writeups on here...
